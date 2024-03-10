@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.529.1",
     "@clerk/nextjs": "^4.29.7",
     "@neondatabase/serverless": "^0.8.1",
     "@radix-ui/react-slot": "^1.0.2",
+    "aws-sdk": "^2.1574.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "dotenv": "^16.4.5",
@@ -27,7 +29,7 @@
   },
   "devDependencies": {
     "@types/keygrip": "^1.0.6",
-    "@types/node": "^20",
+    "@types/node": "^20.11.25",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
